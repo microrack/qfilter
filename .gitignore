@@ -1,0 +1,13 @@
+*.bak
+*.kicad_pcb-bak
+*.sch-bak
+*.step
+*.fcstd1
+*.net
+fp-info-cache
+fp-lib-table
+sym-lib-table
+*.jpg
+*.png
+*.zip
+*-cache.lib
