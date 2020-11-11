@@ -483,17 +483,6 @@ Wire Wire Line
 Wire Wire Line
 	3800 900  4150 900 
 $Comp
-L uRack:LM324 U2
-U 2 1 5FB9BBC1
-P 6550 1600
-F 0 "U2" H 6500 1600 50  0000 C CNN
-F 1 "LM324A" H 6650 1800 50  0000 C CNN
-F 2 "footprint:soic-14" H 6500 1700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 6600 1800 50  0001 C CNN
-	2    6550 1600
-	1    0    0    1   
-$EndComp
-$Comp
 L uRack:GNDREF #PWR01
 U 1 1 5FB9BBC7
 P 3450 1850
@@ -514,17 +503,6 @@ Wire Wire Line
 	3200 1400 3500 1400
 Wire Wire Line
 	3500 1600 3450 1600
-$Comp
-L uRack:LM324 U2
-U 1 1 5FB9BBD2
-P 3800 1500
-F 0 "U2" H 3750 1500 50  0000 C CNN
-F 1 "LM324A" H 3900 1700 50  0000 C CNN
-F 2 "footprint:soic-14" H 3750 1600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3850 1700 50  0001 C CNN
-	1    3800 1500
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	6200 1250 6200 1500
 Wire Wire Line
@@ -833,24 +811,13 @@ Wire Wire Line
 Connection ~ 5100 6550
 Wire Wire Line
 	5100 6550 5100 6400
-$Comp
-L uRack:LM324 U1
-U 5 1 5C7D75BE
-P 5200 6100
-F 0 "U1" H 5200 6300 50  0000 L CNN
-F 1 "LM324A" V 5200 5800 50  0000 L CNN
-F 2 "footprint:soic-14" H 5150 6200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5250 6300 50  0001 C CNN
-	5    5200 6100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6200 1250 6900 1250
 $Comp
-L uRack:C C?
+L uRack:C C6
 U 1 1 5FAC9D02
 P 6450 2750
-F 0 "C?" H 6565 2796 50  0000 L CNN
+F 0 "C6" H 6565 2796 50  0000 L CNN
 F 1 "22u" H 6565 2705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6488 2600 50  0001 C CNN
 F 3 "~" H 6450 2750 50  0001 C CNN
@@ -858,12 +825,12 @@ F 3 "~" H 6450 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L uRack:R_POT RV?
+L uRack:R_POT RV1
 U 1 1 5FACBCA5
 P 5050 2450
-F 0 "RV?" V 4950 2500 50  0000 R CNN
+F 0 "RV1" V 4950 2500 50  0000 R CNN
 F 1 "10K" V 4850 2500 50  0000 R CNN
-F 2 "" H 5050 2450 50  0001 C CNN
+F 2 "footprint:w3296w" H 5050 2450 50  0001 C CNN
 F 3 "" H 5050 2450 50  0001 C CNN
 	1    5050 2450
 	0    -1   -1   0   
@@ -873,10 +840,10 @@ Wire Wire Line
 Wire Wire Line
 	5250 2300 5050 2300
 $Comp
-L uRack:C C?
+L uRack:C C3
 U 1 1 5FAD2681
 P 6050 2750
-F 0 "C?" H 6165 2796 50  0000 L CNN
+F 0 "C3" H 6165 2796 50  0000 L CNN
 F 1 "1u" H 6165 2705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6088 2600 50  0001 C CNN
 F 3 "~" H 6050 2750 50  0001 C CNN
@@ -884,10 +851,10 @@ F 3 "~" H 6050 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L uRack:Switch S?
+L uRack:Switch S3
 U 1 1 5FAD419A
 P 5350 2450
-F 0 "S?" H 5700 2775 50  0000 C CNN
+F 0 "S3" H 5700 2775 50  0000 C CNN
 F 1 "KBB40-2P2W" H 5700 2684 50  0000 C CNN
 F 2 "" H 5350 2450 50  0001 C CNN
 F 3 "" H 5350 2450 50  0001 C CNN
@@ -901,10 +868,10 @@ Wire Wire Line
 Wire Wire Line
 	6050 2600 6050 2450
 $Comp
-L uRack:Switch S?
+L uRack:Switch S4
 U 1 1 5FAEF4D1
 P 5350 3050
-F 0 "S?" H 5700 3250 50  0000 C CNN
+F 0 "S4" H 5700 3250 50  0000 C CNN
 F 1 "Switch" H 5900 3250 50  0000 C CNN
 F 2 "" H 5350 3050 50  0001 C CNN
 F 3 "" H 5350 3050 50  0001 C CNN
@@ -920,10 +887,10 @@ Wire Wire Line
 Wire Notes Line
 	5700 2500 5700 3000
 $Comp
-L uRack:Switch S?
+L uRack:Switch S1
 U 1 1 5FB1D5F0
 P 4750 2450
-F 0 "S?" H 5100 2775 50  0000 C CNN
+F 0 "S1" H 5100 2775 50  0000 C CNN
 F 1 "KBB40-2P2W" H 5100 2684 50  0000 C CNN
 F 2 "" H 4750 2450 50  0001 C CNN
 F 3 "" H 4750 2450 50  0001 C CNN
@@ -931,10 +898,10 @@ F 3 "" H 4750 2450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L uRack:Switch S?
+L uRack:Switch S2
 U 1 1 5FB1DA97
 P 4750 2650
-F 0 "S?" H 5100 2850 50  0000 C CNN
+F 0 "S2" H 5100 2850 50  0000 C CNN
 F 1 "Switch" H 5300 2850 50  0000 C CNN
 F 2 "" H 4750 2650 50  0001 C CNN
 F 3 "" H 4750 2650 50  0001 C CNN
@@ -958,10 +925,10 @@ Connection ~ 3800 2450
 Wire Wire Line
 	3800 2450 3800 2750
 $Comp
-L uRack:GNDREF #PWR?
+L uRack:GNDREF #PWR0109
 U 1 1 5FBB4A81
 P 3950 2900
-F 0 "#PWR?" H 3950 2650 50  0001 C CNN
+F 0 "#PWR0109" H 3950 2650 50  0001 C CNN
 F 1 "GNDREF" H 3955 2727 50  0000 C CNN
 F 2 "" H 3950 2900 50  0001 C CNN
 F 3 "" H 3950 2900 50  0001 C CNN
@@ -995,4 +962,37 @@ Wire Wire Line
 Connection ~ 5250 2300
 Wire Notes Line
 	4400 2500 4400 2600
+$Comp
+L uRack:LM2904 U1
+U 1 1 5FAC7FAB
+P 3800 1500
+F 0 "U1" H 3800 1133 50  0000 C CNN
+F 1 "LM2904" H 3800 1224 50  0000 C CNN
+F 2 "footprint:soic-8" H 3800 1500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm358.pdf" H 3800 1500 50  0001 C CNN
+	1    3800 1500
+	1    0    0    1   
+$EndComp
+$Comp
+L uRack:LM2904 U1
+U 3 1 5FACABC3
+P 5200 6100
+F 0 "U1" H 5158 6146 50  0000 L CNN
+F 1 "LM2904" H 5158 6055 50  0000 L CNN
+F 2 "footprint:soic-8" H 5200 6100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm358.pdf" H 5200 6100 50  0001 C CNN
+	3    5200 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L uRack:LM2904 U1
+U 2 1 5FAC917C
+P 6550 1600
+F 0 "U1" H 6550 1233 50  0000 C CNN
+F 1 "LM2904" H 6550 1324 50  0000 C CNN
+F 2 "footprint:soic-8" H 6550 1600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm358.pdf" H 6550 1600 50  0001 C CNN
+	2    6550 1600
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
