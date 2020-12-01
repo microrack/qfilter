@@ -865,7 +865,7 @@ F 1 "IRLML5203" V 9951 1150 50  0000 C CNN
 F 2 "footprint:SOT-23" H 9900 1075 50  0001 L CIN
 F 3 "https://www.infineon.com/dgdl/irlml5203pbf.pdf?fileId=5546d462533600a40153566868da261d" H 9700 1150 50  0001 L CNN
 	1    9700 1150
-	0    1    -1   0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	9900 1050 10050 1050
