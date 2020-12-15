@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 12)
+    (drawings 19)
     (tracks 232)
     (zones 0)
     (modules 31)
@@ -1350,6 +1350,13 @@
     )
   )
 
+  (gr_line (start 148.43 25.01) (end 146.598 25.01) (layer F.SilkS) (width 0.3) (tstamp 5FD92D75))
+  (gr_line (start 144.73 28.71) (end 146.598 26.876) (layer F.SilkS) (width 0.3) (tstamp 5FD92D74))
+  (gr_line (start 142.93 28.71) (end 144.73 26.91) (layer F.SilkS) (width 0.3) (tstamp 5FD92D73))
+  (gr_line (start 146.598 30.11) (end 146.598 25.01) (layer F.SilkS) (width 0.3) (tstamp 5FD92D72))
+  (gr_line (start 146.598 26.876) (end 148.43 28.71) (layer F.SilkS) (width 0.3) (tstamp 5FD92D71))
+  (gr_line (start 144.73 26.91) (end 144.73 28.71) (layer F.SilkS) (width 0.3) (tstamp 5FD92D70))
+  (gr_line (start 146.598 26.876) (end 148.43 25.01) (layer F.SilkS) (width 0.3) (tstamp 5FD92D6F))
   (gr_text OUT (at 136.3 83.1) (layer F.SilkS) (tstamp 5FC4E3B9)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
